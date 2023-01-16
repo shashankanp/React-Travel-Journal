@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  max-width: 550px;
+}
+
+nav {
+  color: white;
+  width: 550px;
+  height: 55px;
+  background: #f55a5a;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  letter-spacing: -0.05em;
+}
+
+nav > img {
+  width: 25px;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+}
+
+h4 {
+  margin-left: 5px;
+  margin-right: 10px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  font-size: 11px;
+  color: #2b283a;
+}
+
+.card > img {
+  margin: 45px 20px 0 40px;
+  width: 130px;
+  height: 170px;
+  border-radius: 5px;
+}
+a:visited {
+  color: gray;
+}
+a {
+  color: gray;
+}
+.location {
+  margin-top: 45px;
+  margin-bottom: 10px;
+  display: flex;
+}
+.location > img {
+  width: 7px;
+  height: 9.55px;
+}
+.country {
+  text-transform: uppercase;
+}
+.view {
+  margin-left: 0;
+  color: grey;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  letter-spacing: normal;
+  text-decoration-line: underline;
+}
+.date {
+  margin-top: 10px;
+  width: 319px;
+  height: 11px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2b283a;
+}
+p {
+  width: 326px;
+  margin-top: 10px;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2b283a;
+}
